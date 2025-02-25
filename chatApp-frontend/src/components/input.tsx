@@ -6,7 +6,7 @@ interface InputProps {
 export function Input(props:InputProps){
     return (
         <div className="w-full h-12">
-            <input className="w-full h-12 items-center bg-slate-200 rounded-md border-2" ref={props.reference} placeholder={props.placeholder} />
+            <input className="w-full h-12 items-center bg-slate-300 rounded-md " ref={props.reference} placeholder={props.placeholder} />
         </div>
     )
 }   
